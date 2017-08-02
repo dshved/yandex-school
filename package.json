@@ -1,0 +1,14 @@
+{
+  "name": "yandex-school",
+  "version": "1.0.0",
+  "description": "Тестовое задание для участия в Школе Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Dmitriy Shved",
+  "license": "MIT",
+  "dependencies": {
+    "node-static": "^0.7.9"
+  }
+}

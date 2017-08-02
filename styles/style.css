@@ -1,0 +1,59 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#resultContainer {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.page {
+  max-width: 320px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.form {
+  width: 320px;
+}
+
+.form__input {
+  border: solid 1px rgba(0,0,0,0.2);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.form__submit {
+  border-radius: 5px;
+  width: 100%;
+  border: solid 1px #ffdb4d;
+  padding: 10px;
+  cursor: pointer;
+  background: #ffdb4d;
+  text-transform: uppercase;
+}
+.form__submit:hover {
+  background-color: #fdcf16;
+}
+
+.error {
+  border: 1px solid red;
+}
+#resultContainer.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+.progress {
+  border: 1px solid lightblue;
+}
